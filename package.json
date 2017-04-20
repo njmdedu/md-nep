@@ -3,6 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/njmdedu/md-nep.git"
+  },
+  "bugs": {
+    "url": "https://github.com/njmdedu/md-nep/issues"
+  },
+  "keywords": [
+    "nep",
+    "njmdedu"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

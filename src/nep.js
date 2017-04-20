@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = function(a, b, c){
+exports.neplayer = function(a, b, c){
     var Player = function(id, options, ready){
         var vjs = videojs(id, options, ready);
         this.getCurrentPosition = function() {return vjs.currentTime()*1000};
@@ -67,7 +67,6 @@ module.exports = function(a, b, c){
     };
     return new Player(a, b, c);
 };
-
 
 /**
  * @license

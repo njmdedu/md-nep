@@ -1,6 +1,6 @@
 'use strict';
 
-exports.neplayer = function(a, b, c){
+exports default neplayer = function(a, b, c){
     var Player = function(id, options, ready){
         var vjs = videojs(id, options, ready);
         this.getCurrentPosition = function() {return vjs.currentTime()*1000};

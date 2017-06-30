@@ -1,6 +1,6 @@
 'use strict';
 
-exports default neplayer = function(a, b, c){
+var neplayer = function(a, b, c){
     var Player = function(id, options, ready){
         var vjs = videojs(id, options, ready);
         this.getCurrentPosition = function() {return vjs.currentTime()*1000};
@@ -67,7 +67,8 @@ exports default neplayer = function(a, b, c){
     };
     return new Player(a, b, c);
 };
-
+module.exports = neplayer;
+module.exports.default = neplayer;
 /**
  * @license
  * Video.js 5.8.3 <http://videojs.com/>

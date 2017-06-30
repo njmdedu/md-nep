@@ -1,8 +1,8 @@
 {
   "name": "md-nep",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
-  "main": "./src/nep.min.js",
+  "main": "./src/nep.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/njmdedu/md-nep.git"
